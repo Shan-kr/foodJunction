@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    padding: 60px;    
+}
+h2{
+    padding: 34px;
+    margin-top: 30px;
+}
+.tour,.gallery{
+    border-radius: 10px;
+    border-color: white;
+    display: block;
+    color: white;
+
+}
+.gallery:hover{
+     background: white;
+     color: black;
+}
+.tour:hover{
+    background: white;
+     color: black;
+}
+
+.row{
+    list-style: none;   
+}
+
+.buttons{
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+@media (max-width: 992px){
+
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+
+    .banner{
+        padding:20px;
+        font-size:4.0rem;
+    }
+    .buttons{
+        padding: 15px;
+        margin-left: 10px;
+    }
+}

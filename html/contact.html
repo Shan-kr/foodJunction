@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/normalized.css">
+    <link href="../css/contact.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar nabvar-expand-md navbar-dark navbar-custom sticky-top">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="../mark3.html" >Food Junction</a>
+        <a class="navbar-brand float-right" href="../mark3.html" >Home</a>
+        </div>
+    </nav>
+    <div class="container-fluid main">
+    <div class="container form">
+      <form action="../php/contact.php" method="POST" id="form1">
+          <table class="table-hover table">
+              <tr>
+                <td>
+                    <label class="text-light">Name</label></td><td>
+                    <input type="text" name="name" placeholder="Name"><br>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <label class="text-light">Email</label></td><td>
+                    <input type="text" name="email" placeholder="Email"><br>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <label class="text-light">Your Query</label></td><td>
+                   <textarea class="text-dark textarea" name="info" form="form1" rows="10" cols="100">Your thought</textarea>  
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <label class="text-light"></label></td><td>
+                   <button type="submit" class="button">Send</button>
+                </td>
+              </tr>
+          </table>        
+      </form>
+    </div>
+    </div>
+</body>
+</html>

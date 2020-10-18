@@ -1,0 +1,19 @@
+.navbar-custom{
+    background-color: rgb(20, 18, 18);
+}
+.navbar{
+    padding:0.5px;  
+}
+html , body
+{  height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  color: rgb(202, 197, 197);
+    height: 30px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background: url(../image/coffee.jpg);
+}
+.form{
+    margin-top: 20%;
+    margin-top: 10%;
+}

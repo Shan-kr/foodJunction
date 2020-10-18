@@ -1,0 +1,44 @@
+.navbar-custom{
+    background-color: rgb(20, 18, 18);
+}
+.navbar{
+    padding:0.5px;  
+}
+
+.custom-img{
+    height: 80%;
+    width: 50%;
+}
+
+.rating{
+    margin-right: 175px;
+}
+.checked{
+    color: rgb(16, 107, 16);
+}
+
+.banner{
+    margin:0px;
+    padding: 40px;
+    background: url(../image/darbhangares.jpg);
+}
+.res-interface{
+    background-color: rgb(235, 230, 224);
+    height: 100%;
+    width: 100%;
+}
+.res-interface a:hover{
+    text-decoration: none;
+}
+.ads{
+    margin: 0px;
+    padding: 30px;
+    background: url(../image/darbhangares.jpg)
+}
+.box:hover{
+    transform: scale(1.2);
+    background-color:rgb(235, 230, 224);
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+    transition: 0.5s;
+}

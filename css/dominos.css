@@ -1,0 +1,68 @@
+html, body
+{  height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  color: rgb(202, 197, 197);
+    height: 30px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background:url(../image/dominos12.jpg);
+}
+  
+.navbar-custom{
+    background-color: rgb(20, 18, 18);
+}
+.navbar{
+    padding:0.5px;
+    
+}
+.navbar-nav li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.1rem !important;
+}
+.data{
+    margin-top: 3%;
+}
+a{
+    color: white;
+}
+
+img{
+   height: 100%;
+   width: 100%;
+}
+ul{
+    right: 0;
+    left: auto;
+}
+.sidebar{
+    background: black;
+}
+.table{
+    background:black;
+
+}
+h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px  #000;
+    text-decoration: overline;
+    margin-top: 5%;
+}
+@media (max-width: 992px){
+
+
+}
+@media (max-width: 768px){
+    
+    
+}
+@media (max-width: 576px){
+  .custtable{
+      margin-left:2%;
+      width: 70%;
+  }
+  
+}

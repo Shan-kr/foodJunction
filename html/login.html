@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/normalized.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid bg">
+      <nav class="navbar nabvar-expand-md navbar-dark navbar-custom sticky-top">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="../mark3.html" >Food Junction</a>
+        <a class="navbar-brand float-right" href="../html/createacc.html" >Sign up</a>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12"> </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">  
+            <form class="form-container" method="POST" action="../php/login.php">
+              <div class="form-group">
+                  <h2 class="display3 text-center">Log in here</h2>
+                 <label for="InputEmail1">Email</label>
+                 <input class="form-control" type="text" placeholder="Email" name="email" required>
+                </div>
+               <div class="form-group">
+                 <label for="InputPassword1">Password</label>
+                 <input type="password" class="form-control" placeholder="Password" name="passw" required>
+               </div>
+               <button type="submit" class="btn btn-success btn-block">Log in</button>
+               <p><a class="text-light" href="F">Forget Your Password?</a></p>
+               <p><a class="text-light" href="fhf">Didn't have an account?</a></p>
+            </form>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12"></div>
+  </div>
+    
+</body>
+</html>
